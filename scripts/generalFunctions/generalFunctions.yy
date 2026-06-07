@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"generalFunctions",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"generalFunctions",
+  "parent":{
+    "name":"ComfyJam",
+    "path":"ComfyJam.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

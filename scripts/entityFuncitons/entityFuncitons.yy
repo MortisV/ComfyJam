@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"entityFuncitons",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"entityFuncitons",
+  "parent":{
+    "name":"ComfyJam",
+    "path":"ComfyJam.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
