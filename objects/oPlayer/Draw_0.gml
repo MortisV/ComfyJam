@@ -1,11 +1,13 @@
-var _onTop = (mouse_y > y),_detectorDir = point_direction(x,y,mouse_x,mouse_y)
+entity.drawEntityShadow();
 
-if(_onTop == false) entity.drawEntityCustom(sDetector,x,y - 16,{
+var _detectorDir = point_direction(x,y,mouse_x,mouse_y)
+
+if(currentInfo.infront == false) entity.drawEntityCustom(sDetector,x + currentInfo.detecPos.ofx,y + currentInfo.detecPos.ofy,{
     angle : _detectorDir,
 })
 
 entity.drawEntity();
 
-if(_onTop) entity.drawEntityCustom(sDetector,x,y,{
+if(currentInfo.infront) entity.drawEntityCustom(sDetector,x + currentInfo.detecPos.ofx,y + currentInfo.detecPos.ofy,{
     angle : _detectorDir,
 })

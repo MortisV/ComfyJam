@@ -68,7 +68,14 @@ function entityDefiner(id) constructor{
         }
     }
     
-    static drawEntityCustom = function(_sprite,_x,_y,_drawInfo){
+    static drawEntityShadow = function(){
+        var _finalScaleX = drawInfo.entityScaleX * drawInfo.entityFaceX, _finalScaleY = drawInfo.entityScaleY * drawInfo.entityFaceY;
+        with(entityID){
+            draw_sprite_ext(sShadow,0,x,y,_finalScaleX,_finalScaleY,0,c_black,.4);
+        }   
+    }
+    
+    static drawEntityCustom = function(_sprite,_x,_y,_drawInfo = {}){
         var _scaleX = _drawInfo[$ "sx"] ?? drawInfo.entityScaleX * drawInfo.entityFaceX;
         var _scaleY = _drawInfo[$ "sy"] ?? drawInfo.entityScaleY * drawInfo.entityFaceY;
         var _angle = _drawInfo[$ "angle"] ?? drawInfo.entityAngle;

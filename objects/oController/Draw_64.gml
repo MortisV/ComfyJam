@@ -1,0 +1,1 @@
+draw_sprite(sCursor,0,MOUSE_X,MOUSE_Y);
