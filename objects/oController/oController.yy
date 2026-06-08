@@ -9,8 +9,8 @@
   "name":"oController",
   "overriddenProperties":[],
   "parent":{
-    "name":"ComfyJam",
-    "path":"ComfyJam.yyp",
+    "name":"Objects",
+    "path":"folders/Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
