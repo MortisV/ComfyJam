@@ -29,8 +29,8 @@
   "nineSlice":null,
   "origin":7,
   "parent":{
-    "name":"ComfyJam",
-    "path":"ComfyJam.yyp",
+    "name":"Sprites",
+    "path":"folders/Sprites.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
