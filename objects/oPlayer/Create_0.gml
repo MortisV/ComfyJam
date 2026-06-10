@@ -2,6 +2,10 @@ spd = 1;
 hspd = 0;
 vspd = 0;
 
+procurando = false;
+tempo_procurando = 0;
+
+
 spriteDictionary = {
     iddle : {
         top : { sprite : sPlayer_Up, detecPos : {ofx : 0, ofy : -16}, infront : false, },

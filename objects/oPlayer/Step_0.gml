@@ -1,5 +1,7 @@
 depth = -y;
 
+var area = instance_place(x, y, oAreaMetais)
+
 var _keyRight = keyboard_check(ord("D"));
 var _keyLeft = keyboard_check(ord("A"));
 var _keyDown = keyboard_check(ord("S"));
@@ -37,3 +39,31 @@ entity.resetEntityScale();
 
 currentInfo = spriteDictionary[$ currentAction][$ currentDirection]
 sprite_index = currentInfo.sprite;
+
+//collisão com a area de procura
+
+if (area != noone)
+{
+    if(!procurando)
+	{
+		procurando = true
+		
+		tempo_procurando = irandom_range(game_get_speed(gamespeed_fps) * 2, game_get_speed(gamespeed_fps) * 8)
+	}
+} else {
+	procurando = false
+}
+
+if(procurando)
+{
+	tempo_procurando--
+	
+	if tempo_procurando <= 0
+	{
+		add(oInventario.Inventario, global.ITEM_CHAVE, 1)
+		
+		tempo_procurando = irandom_range(game_get_speed(gamespeed_fps) * 2, game_get_speed(gamespeed_fps) * 8)
+	}
+	
+	show_debug_message(tempo_procurando)
+}
