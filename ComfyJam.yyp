@@ -11,6 +11,7 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Objects","folderPath":"folders/Objects.yy","name":"Objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Spawn","folderPath":"folders/Objects/Spawn.yy","name":"Spawn","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"UI","folderPath":"folders/Objects/UI.yy","name":"UI","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scripts","folderPath":"folders/Scripts.yy","name":"Scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"UI","folderPath":"folders/Scripts/UI.yy","name":"UI","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -26,6 +27,7 @@
   },
   "name":"ComfyJam",
   "resources":[
+    {"id":{"name":"oAreaMetais","path":"objects/oAreaMetais/oAreaMetais.yy",},},
     {"id":{"name":"oController","path":"objects/oController/oController.yy",},},
     {"id":{"name":"oInventario","path":"objects/oInventario/oInventario.yy",},},
     {"id":{"name":"oPlayer","path":"objects/oPlayer/oPlayer.yy",},},
@@ -35,6 +37,7 @@
     {"id":{"name":"generalFunctions","path":"scripts/generalFunctions/generalFunctions.yy",},},
     {"id":{"name":"InvTestes","path":"scripts/InvTestes/InvTestes.yy",},},
     {"id":{"name":"items","path":"scripts/items/items.yy",},},
+    {"id":{"name":"sArea","path":"sprites/sArea/sArea.yy",},},
     {"id":{"name":"sBlock","path":"sprites/sBlock/sBlock.yy",},},
     {"id":{"name":"sChave","path":"sprites/sChave/sChave.yy",},},
     {"id":{"name":"sCursor","path":"sprites/sCursor/sCursor.yy",},},
