@@ -1,9 +1,12 @@
 if (!Iaberto) exit;
 
+var inv_x = oPlayer.x + 25
+var inv_y = oPlayer.y - 64
+
 for(var i = 0; i < array_length(Inventario); i++) {
 	//desenhar inventario
-	var xx = (Wtela/2) - ((Iwidth-1)*IDistancia)/2 + (i mod Iwidth) * IDistancia;
-	var yy = (Htela/2) - ((Iheight-1)*IDistancia)/2 + (i div Iwidth) * IDistancia;
+	var xx = inv_x + (i mod Iwidth) * IDistancia;
+	var yy = inv_y + (i div Iwidth) * IDistancia;
 	
 	//desenhar borda
 	var selecionado = false;
