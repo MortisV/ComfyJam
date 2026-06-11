@@ -1,5 +1,7 @@
 if (!Iaberto) exit;
-
+    
+//Desenhar o Inventario ou em uma Posicao Fixa, ou adicioanr a funcao clamp() para garantir que
+//O inventario nao saia do limite da tela;
 var inv_x = oPlayer.x + 25
 var inv_y = oPlayer.y - 64
 
